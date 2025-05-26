@@ -59,10 +59,7 @@ const CONFIG = {
       src: "https://utteranc.es/client.js", 
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
-      label: "utterances",
-      theme: "photon-dark",
-      crossorigin: "anonymous",
-      async: true
+      label: "utterances"
     },
   },
   cusdis: {
