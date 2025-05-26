@@ -8,10 +8,10 @@ const ServiceCard: React.FC = () => {
   if (!CONFIG.projects) return null
   return (
     <>
-      {/* <StyledTitle>
-        <Emoji>🌟</Emoji> Service
-      </StyledTitle> */}
-      {/* <StyledWrapper>
+      <StyledTitle>
+        <Emoji>💌</Emoji> Friend
+      </StyledTitle>
+      <StyledWrapper>
         {CONFIG.projects.map((project, idx) => (
           <a
             key={idx}
@@ -19,11 +19,10 @@ const ServiceCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiFillCodeSandboxCircle className="icon" />
             <div className="name">{project.name}</div>
           </a>
         ))}
-      </StyledWrapper> */}
+      </StyledWrapper>
     </>
   )
 }
