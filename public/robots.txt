@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://jivvon-log.vercel.app
+
+# Sitemaps
+Sitemap: https://jivvon-log.vercel.app/sitemap.xml
