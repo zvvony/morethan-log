@@ -15,6 +15,10 @@ const CONFIG = {
       name: `🌱 chaelog`,
       href: "https://chaeyeonlog.vercel.app",
     },
+    {
+      name: `🪼 amaranth`,
+      href: "https://amaran-th.github.io",
+    },
   ],
   // blog setting (required)
   blog: {
